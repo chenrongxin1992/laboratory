@@ -1911,12 +1911,10 @@ blockquote {
 
 .header-logo-wrap {
 	display: inline-block;
-	background: url(./img/logo_header_1.png) no-repeat;
 }
 
 .header-logo-wrap h1 {
 	margin: 0;
-	padding-left: 105px;
     vertical-align: middle;
     line-height: 100px;
 }
@@ -2002,7 +2000,7 @@ blockquote {
 }
 
 .main-navigation .sub-menu a {
-	min-width: 220px;
+	min-width: 320px;
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -2011,7 +2009,7 @@ blockquote {
 }
 
 .main-navigation .children a {
-	min-width: 220px;
+	min-width: 320px;
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -3452,7 +3450,7 @@ styled buttons not container for vertical centered navs*/
 }
 
 .smaller-nav .owl-nav {
-	top: -57px;
+	top: -54px;
 	padding-left: 20px;
 	background-color: #fff;
 }
@@ -4860,7 +4858,7 @@ ul > li:hover > a,
 }
 
 .islemag-template1-posts .entry-media figure {
-	height: 270px;
+	
 }
 
 .islemag-template1-posts .entry-media figure a img {

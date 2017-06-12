@@ -20,7 +20,7 @@ body {
 .sidebar .widget h3 {
 	font-family: "Lato";
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 22px;
 }
 #footer .widget h3 {
 	font-family: "Lato";
@@ -147,7 +147,7 @@ div#navbar {
 	position: relative;
 	color: #1e3046;
 	font-family: "Lato", sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 }
 .main-navigation li:hover > a:before,
 .main-navigation li.current_page_item > a:before {
@@ -240,11 +240,11 @@ div#footer-inner {
 	margin-top: 10px;
 }
 .entry-block .entry-title a {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 }
 .islemag-top-container .entry-block .entry-title a {
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 400;
 }
 
@@ -929,7 +929,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .islemag-section4 h2,
 .islemag-section5 h2,
 .islemag-section2 h2 {
-	font-size: 30px;
+	font-size: 23px;
 	font-weight: bold;
 }
 .islemag-section1 .entry-overlay-date,
