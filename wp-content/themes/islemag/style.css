@@ -1654,7 +1654,7 @@ h6,
 h1,
 .h1 {
 	margin: 20px 0 10px 0;
-	font-size: 28px;
+	font-size: 22px;
 }
 
 h2,
@@ -1923,7 +1923,6 @@ blockquote {
 	display: table;
 	width: 100%;
 	min-height: 100px;
-	padding: 15px;
 }
 
 .navbar-brand {
@@ -3549,6 +3548,7 @@ styled buttons not container for vertical centered navs*/
 
 .islemag-template3 .entry-block .entry-media + .entry-title {
 	margin-bottom: 0;
+	text-align: left;
 }
 
 #sidebar-ads-area-1,
@@ -4819,7 +4819,7 @@ ul > li:hover > a,
 
 .entry {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	padding-left: 75px;
 }
 
@@ -4892,7 +4892,7 @@ ul > li:hover > a,
 }
 
 .entry-media a img {
-	width: 300px;
+	width: 420px;
 	max-height: 430px;
 }
 figure{
@@ -4927,7 +4927,7 @@ figure{
 }
 
 .entry-title {
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-size: 18px;
 	line-height: 1.4;
 	letter-spacing: 1px;
@@ -5091,7 +5091,7 @@ figure{
 
 @media (min-width: 768px) {
 	.entry {
-		margin-bottom: 70px;
+		margin-bottom: 20px;
 		padding-left: 90px;
 	}
 
@@ -5142,7 +5142,7 @@ figure{
 
 @media (min-width: 992px) {
 	.entry {
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 		padding-left: 100px;
 	}
 
