@@ -1,0 +1,20 @@
+Seos Magazine Premium changelog
+
+= Version 1.2.0 May 09 2016 =
+* ADDED: Tags
+* ADDED: Premium Options
+* FIXED: Menu Hover Effect Issue
+
+= Version 1.0.9 Juni 02 2016 =
+* ADDED: Premium Options
+* ADDED: Free Options
+* ADDED: Kirki
+* FIXED: Hover Dotted Effect
+* CHANGE: The domains
+* CHANGE: Translation
+
+= Version 1.0.8 Juni 02 2016 =
+* CHANGE: Header Image Size
+
+= Version 1.0.0 =
+* Initial release

@@ -1,0 +1,59 @@
+/*
+	A Light (Black) color scheme for Catch Kathmandu
+*/
+
+body {
+	background-color: #ccc;
+}
+#main-slider .entry-container {
+	background: #333; /* Show a solid color for older browsers */
+	background: rgba(51, 51, 51, 0.6);
+}
+#main-slider .entry-container:hover {
+	background: #222; /* Show a solid color for older browsers */
+	background: rgba(34, 34, 34, 1);
+	border-color: #222;
+}
+#homepage-message .right-section a {
+	border-color: #111;
+    background-color: #222;
+}
+#homepage-message,
+#secondary-menu,
+#footer-sidebar,
+.header-sidebar .widget ul.menu ul a, 
+#secondary-menu ul.menu ul a, 
+.sb-options {
+    background-color: #333;
+}
+#homepage-message,
+#main-slider,
+.header-sidebar .widget ul.menu ul a, 
+#secondary-menu ul.menu ul a,
+.sb-options a,
+#colophon {
+	border-color: #222;
+}
+#homepage-message .right-section a:hover,
+#controllers a:hover, 
+#controllers a.active,
+.header-sidebar .widget ul.menu li:hover > a,
+.header-sidebar .widget ul.menu a:focus,
+.header-sidebar .widget ul.menu .current-menu-item > a,
+.header-sidebar .widget ul.menu .current-menu-ancestor > a,
+.header-sidebar .widget ul.menu .current_page_item > a,
+.header-sidebar .widget ul.menu .current_page_ancestor > a,
+#secondary-menu ul.menu li:hover > a,
+#secondary-menu ul.menu a:focus,
+#secondary-menu .menu .current-menu-item > a,
+#secondary-menu .menu .current-menu-ancestor > a,
+#secondary-menu .menu .current_page_item > a,
+#secondary-menu .menu .current_page_ancestor > a,
+.sb-holder,
+.sb-options a:hover,
+.sb-options a:focus,
+.sb-options a.sb-focus,
+#site-generator {
+    background-color: #222;
+}
+

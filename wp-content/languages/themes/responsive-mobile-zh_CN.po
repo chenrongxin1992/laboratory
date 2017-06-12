@@ -1,0 +1,1000 @@
+# Translation of Themes - Responsive Mobile in Chinese (China)
+# This file is distributed under the same license as the Themes - Responsive Mobile package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-23 16:13:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Responsive Mobile\n"
+
+#: template-parts/post-data.php:53
+msgid "Edit"
+msgstr "编辑"
+
+#: template-parts/post-data.php:47
+msgid "Tagged with %1$s"
+msgstr "使用 %1$ s 标记"
+
+#: template-parts/post-data.php:33
+msgid "Posted in %1$s"
+msgstr "张贴在%1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/post-data.php:26 template-parts/post-data.php:39
+msgid ", "
+msgstr "、"
+
+#: template-parts/loop-nav.php:28
+msgid "&larr;"
+msgstr "&larr;"
+
+#: template-parts/loop-nav.php:29
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: template-parts/loop-header.php:49
+msgid "Search Results for: %s"
+msgstr "%s的搜索结果"
+
+#: template-parts/content-sitemap.php:43
+msgid "Pages"
+msgstr "页面"
+
+#: template-parts/content-sitemap.php:36
+msgid "Permanent Link to %s"
+msgstr "%s的永久链接"
+
+#: template-parts/content-sitemap.php:32
+msgid "Latest Posts"
+msgstr "最新发表"
+
+#: template-parts/content-none.php:63
+msgid "&larr; Home"
+msgstr "&larr; 首页"
+
+#: template-parts/content-sitemap.php:27
+msgid "Categories"
+msgstr "分类目录"
+
+#: template-parts/content-none.php:53
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "您访问的页面不存在。"
+
+#: template-parts/content-none.php:58
+msgid "You can return %s or search for the page you were looking for."
+msgstr "你可以返回 %s 或者使用搜索功能"
+
+#: template-parts/content-none.php:54
+msgid "The URL may be misspelled or the page you are looking for is no longer available."
+msgstr "可能拼写错误的 URL 或你正在寻找的页面将不再可用。"
+
+#: sidebar-left-half.php:28 sidebar-left.php:28 sidebar-right-half.php:28
+#: sidebar-right.php:28 sidebar.php:56
+msgid "In Archive"
+msgstr "归档"
+
+#: template-parts/content-none.php:50
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; 很抱歉……"
+
+#: sidebar-home.php:30
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "这是首页上第一个小工具，请在仪表盘 > 外观 > 小工具中修改此处的文字。"
+
+#: sidebar-home.php:45
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "这是首页上第二个小工具，请在仪表盘 > 外观 > 小工具中修改此处的文字。"
+
+#: sidebar-home.php:60
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "这是首页上第三个小工具，请在仪表盘 > 外观 > 小工具中修改此处的文字。"
+
+#: template-parts/content-none.php:34
+msgid "Ready to publish your first post?"
+msgstr "准备第一次发布了吗？"
+
+#: template-parts/content-none.php:35
+msgid "Get started here"
+msgstr "从这里开始"
+
+#: template-parts/content-none.php:30
+msgid "No posts published yet"
+msgstr "没有文章尚未发布"
+
+#: template-parts/content-none.php:41
+msgid "No results"
+msgstr "没有结果"
+
+#: template-parts/content-none.php:44
+msgid "Your search for \"%s\" did not match any entries."
+msgstr "\"%S\"您搜索不匹配的任何条目。"
+
+#: sidebar-gallery.php:46
+msgid "ISO:"
+msgstr "感光度:"
+
+#: sidebar-gallery.php:50
+msgid "Shutter:"
+msgstr "快门速度："
+
+#: sidebar-gallery.php:65
+msgid "Camera:"
+msgstr "相机:"
+
+#: sidebar-gallery.php:37
+msgid "Aperture: f&#47;"
+msgstr "光圈： f&#47;"
+
+#: sidebar-gallery.php:42
+msgid "Focal Length:"
+msgstr "焦距："
+
+#: sidebar-gallery.php:42
+msgid "mm"
+msgstr "毫米"
+
+#: sidebar-gallery.php:29
+msgid "Image Information"
+msgstr "图片信息"
+
+#: sidebar-gallery.php:33
+msgid "Full Size:"
+msgstr "完整尺寸："
+
+#: page-templates/blog-excerpt.php:54 page-templates/blog.php:66
+msgid "&#8249; Older posts"
+msgstr "&#8249; 较早文章"
+
+#: page-templates/blog-excerpt.php:55 page-templates/blog.php:68
+msgid "Newer posts &#8250;"
+msgstr "较新文章 &#8250;"
+
+#: libraries/class-responsive-options.php:552
+#: libraries/class-responsive-options.php:575
+msgid "Options Imported"
+msgstr "导入选项"
+
+#: libraries/class-responsive-options.php:557
+#: libraries/class-responsive-options.php:580
+msgid "Invalid Data for Import"
+msgstr "导入的数据无效"
+
+#: libraries/class-responsive-options.php:386
+msgid "Restore Defaults"
+msgstr "Restore Defaults"
+
+#: libraries/class-responsive-options.php:386
+msgid "Save Options"
+msgstr "保存选项"
+
+#: libraries/class-responsive-options.php:110
+msgid "Options Saved"
+msgstr "保存成功"
+
+#: libraries/class-meta-box.php:1944
+msgid "or enter URL"
+msgstr "或输入 URL"
+
+#: libraries/class-responsive-options.php:49
+msgid "Do you want to restore the default settings?"
+msgstr "你想要恢复默认设置吗？"
+
+#: libraries/class-responsive-options.php:49
+msgid "All theme settings will be lost!"
+msgstr "所有的主题设置将会丢失!"
+
+#: libraries/class-responsive-options.php:49
+msgid "Click OK to restore."
+msgstr "单击确定来恢复。"
+
+#: libraries/class-meta-box.php:1943
+msgid "Upload"
+msgstr "上传"
+
+#: libraries/class-meta-box.php:1791 libraries/class-meta-box.php:1801
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "对不起，您不能上载此文件类型为此字段。"
+
+#: includes/functions.php:75
+msgid "Sub-Header Menu"
+msgstr "次级导航"
+
+#: includes/functions.php:76
+msgid "Footer Menu"
+msgstr "底部菜单"
+
+#: includes/functions.php:74
+msgid "Header Menu"
+msgstr "顶部菜单"
+
+#: includes/functions.php:73
+msgid "Top Menu"
+msgstr "顶部菜单"
+
+#: includes/functions-theme-options.php:355
+msgid "Embeds to footer.php &darr;"
+msgstr "嵌入到 footer.php &darr;"
+
+#: includes/functions-theme-options.php:358
+msgid "Enter your custom footer script."
+msgstr "请输入您的自定义页脚脚本。"
+
+#: includes/functions-theme-options.php:342
+msgid "Scripts"
+msgstr "脚本"
+
+#: includes/functions-theme-options.php:345
+msgid "Custom Scripts for Header and Footer"
+msgstr "页眉和页脚的自定义脚本"
+
+#: includes/functions-theme-options.php:346
+msgid "Quick Tutorial"
+msgstr "快速教程"
+
+#: includes/functions-theme-options.php:347
+msgid "Embeds to header.php &darr;"
+msgstr "嵌入到文章 &darr;"
+
+#: includes/functions-theme-options.php:350
+msgid "Enter your custom header script."
+msgstr "请输入您自定义标头的脚本。"
+
+#: includes/functions-theme-options.php:335
+msgid "Enter your custom CSS styles."
+msgstr "输入你自定义的CSS"
+
+#: includes/functions-theme-options.php:321
+msgid "Enter your foursquare URL"
+msgstr "输入你的foursquare地址"
+
+#: includes/functions-theme-options.php:331
+msgid "Custom CSS Styles"
+msgstr "自定义CSS样式"
+
+#: includes/functions-theme-options.php:332
+msgid "CSS Tutorial"
+msgstr "CSS Tutorial"
+
+#: includes/functions-theme-options.php:328
+msgid "CSS Styles"
+msgstr "CSS 样式"
+
+#: includes/functions-theme-options.php:318
+msgid "foursquare"
+msgstr "FourSquare"
+
+#: includes/functions-theme-options.php:313
+msgid "Enter your Vimeo URL"
+msgstr "输入你的Vimeo地址"
+
+#: includes/functions-theme-options.php:310
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/functions-theme-options.php:296
+msgid "Enter your Pinterest URL"
+msgstr "输入你的Pinterest地址"
+
+#: includes/functions-theme-options.php:293
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/functions-theme-options.php:288
+msgid "Enter your Instagram URL"
+msgstr "输入你的Instagram地址"
+
+#: includes/functions-theme-options.php:285
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/functions-theme-options.php:280
+msgid "Enter your Google+ URL"
+msgstr "输入你的Google+地址"
+
+#: includes/functions-theme-options.php:272
+msgid "Enter your RSS Feed URL"
+msgstr "输入你的RSS Feed地址"
+
+#: includes/functions-theme-options.php:277
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/functions-theme-options.php:269
+msgid "RSS Feed"
+msgstr "RSS 订阅"
+
+#: includes/functions-theme-options.php:264
+msgid "Enter your StumbleUpon URL"
+msgstr "输入你的StumbleUpon地址"
+
+#: includes/functions-theme-options.php:261
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: includes/functions-theme-options.php:256
+msgid "Enter your YouTube URL"
+msgstr "输入你的YouTube地址"
+
+#: includes/functions-theme-options.php:253
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/functions-theme-options.php:248
+msgid "Enter your LinkedIn URL"
+msgstr "输入你的LinkedIn地址"
+
+#: includes/functions-theme-options.php:245
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/functions-theme-options.php:240
+msgid "Enter your Facebook URL"
+msgstr "输入你的Facebook地址"
+
+#: includes/functions-theme-options.php:237
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/functions-theme-options.php:232
+msgid "Enter your Twitter URL"
+msgstr "输入你的Twitter地址"
+
+#: includes/functions-theme-options.php:229
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/functions-theme-options.php:226
+msgid "Social Icons"
+msgstr "社会图标"
+
+#: includes/functions-theme-options.php:185
+#: includes/functions-theme-options.php:186
+msgid "See Docs"
+msgstr "查阅帮助文档"
+
+#: includes/functions-theme-options.php:189
+msgid "Paste your shortcode, video or image source"
+msgstr "粘贴您简码，视频或图像的源"
+
+#: includes/functions-theme-options.php:197
+msgid "Default Layouts"
+msgstr "默认布局"
+
+#: includes/functions-theme-options.php:200
+msgid "Default Static Page Layout"
+msgstr "默认静态页面布局"
+
+#: includes/functions-theme-options.php:208
+msgid "Default Single Blog Post Layout"
+msgstr "默认的单个博客布局"
+
+#: includes/functions-theme-options.php:216
+msgid "Default Blog Posts Index Layout"
+msgstr "默认博客帖子索引版式"
+
+#: includes/functions-theme-options.php:157
+msgid "Content Area"
+msgstr "正文"
+
+#: includes/functions-theme-options.php:160
+msgid "Enter your content"
+msgstr "输入正文"
+
+#: includes/functions-theme-options.php:184
+msgid "Featured Content"
+msgstr "特色内容"
+
+#: includes/functions-theme-options.php:143 template-parts/featured-area.php:26
+msgid "Hello, World!"
+msgstr "你好，世界！"
+
+#: includes/functions-theme-options.php:152 template-parts/featured-area.php:36
+msgid "Your H2 subheadline here"
+msgstr "标题"
+
+#: includes/functions-theme-options.php:161 template-parts/featured-area.php:46
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "你可以在主题设置编辑标题、副标题，以及“开始行动”按钮， 右侧可以放置图片或者视频。"
+
+#: includes/functions-theme-options.php:179 template-parts/featured-area.php:60
+msgid "Call to Action"
+msgstr "开始行动"
+
+#: includes/functions-theme-options.php:148
+msgid "Subheadline"
+msgstr "副标题"
+
+#: includes/functions-theme-options.php:151
+msgid "Enter your subheadline"
+msgstr "输入副标题"
+
+#: includes/functions-theme-options.php:166
+msgid "Call to Action (URL)"
+msgstr "开始行动 （链接）"
+
+#: includes/functions-theme-options.php:169
+msgid "Enter your call to action URL"
+msgstr "输入“开始行动”按钮的链接"
+
+#: includes/functions-theme-options.php:175
+msgid "Call to Action (Text)"
+msgstr "开始行动 （文字）"
+
+#: includes/functions-theme-options.php:178
+msgid "Enter your call to action text"
+msgstr "输入“开始行动”按钮的文字 "
+
+#: includes/functions-theme-options.php:142
+msgid "Enter your headline"
+msgstr "输入标题"
+
+#: includes/functions-theme-options.php:137
+msgid "Headline"
+msgstr "头条"
+
+#: includes/functions-theme-options.php:129
+msgid "Enable Custom Front Page"
+msgstr "启用自定义前台页面"
+
+#: includes/functions-theme-options.php:132
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr "重写的 WordPress %1sfront 页选项 %2s"
+
+#: includes/functions-theme-options.php:120
+msgid "Need to replace or remove default logo?"
+msgstr "替换默认LOGO？"
+
+#: includes/functions-theme-options.php:126
+msgid "Home Page"
+msgstr "首页"
+
+#: includes/functions-theme-options.php:120
+msgid "Click here"
+msgstr "点这里"
+
+#: includes/functions-theme-options.php:117
+msgid "Custom Header"
+msgstr "自定义顶部"
+
+#: includes/functions-theme-options.php:114
+msgid "Logo Upload"
+msgstr "LOGO"
+
+#: includes/functions-theme-options.php:104
+msgid "Disable Call to Action Button?"
+msgstr "禁用“开始行动”按钮？"
+
+#: includes/functions-theme-options.php:96
+msgid "Use minified CSS"
+msgstr "使用缩小的 CSS"
+
+#: includes/functions-theme-options.php:91
+#: includes/functions-theme-options.php:99
+#: includes/functions-theme-options.php:107
+msgid "Check to disable"
+msgstr "选上以禁用"
+
+#: includes/functions-theme-options.php:88
+msgid "Disable breadcrumb list?"
+msgstr "禁用痕迹导航列表吗？"
+
+#: includes/functions-theme-options.php:85
+msgid "Theme Elements"
+msgstr "主题元素"
+
+#. #-#-#-#-#  responsive-mobile.pot (Responsive Mobile 1.1)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/functions-theme-options.php:48
+msgid "Content/Sidebar"
+msgstr "内容/侧边栏"
+
+#. #-#-#-#-#  responsive-mobile.pot (Responsive Mobile 1.1)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/functions-theme-options.php:49
+msgid "Sidebar/Content"
+msgstr "侧边栏/内容"
+
+#. #-#-#-#-#  responsive-mobile.pot (Responsive Mobile 1.1)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/functions-theme-options.php:50
+msgid "Content/Sidebar Half Page"
+msgstr "内容/侧边栏半页"
+
+#: includes/functions-theme-options.php:51
+msgid "Sidebar/Content Half Page"
+msgstr "侧边栏/内容半页"
+
+#. #-#-#-#-#  responsive-mobile.pot (Responsive Mobile 1.1)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/functions-theme-options.php:52
+msgid "Full Width Page (no sidebar)"
+msgstr "全宽度页 （没有侧栏）"
+
+#: includes/functions-theme-options.php:47
+msgid "Default"
+msgstr "默认"
+
+#: includes/functions-theme-options-page.php:107
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "启用自定义前台页面。你可以在 <a href=\"%1$s\"> 主题设置</a> 中禁用它。"
+
+#: includes/functions-theme-options-page.php:109
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "自定义前台页面将被禁用。你可以在 <a href=\"%1$s\"> 主题设置</a> 中启用它。"
+
+#: includes/functions-theme-options-page.php:83
+#: includes/functions-theme-options-page.php:84
+msgid "Showcase"
+msgstr "陈列柜"
+
+#: includes/functions-theme-options-page.php:80
+#: includes/functions-theme-options-page.php:81
+msgid "Translate"
+msgstr "翻译"
+
+#: includes/functions-theme-options-page.php:30
+msgid "Welcome to %s!"
+msgstr "欢迎到 %s ！"
+
+#: includes/functions-theme-options-page.php:74
+msgid "Guides"
+msgstr "指南"
+
+#: includes/functions-theme-options-page.php:75
+msgid "Instructions"
+msgstr "说明"
+
+#: includes/functions-template-tags.php:279
+msgid "Menu"
+msgstr "菜单"
+
+#: includes/functions-template-tags.php:261
+msgid "Archives"
+msgstr "归档"
+
+#: includes/functions-template-tags.php:258
+msgid "Chats"
+msgstr "聊天"
+
+#: includes/functions-template-tags.php:255
+msgid "Audios"
+msgstr "音频"
+
+#: includes/functions-template-tags.php:252
+msgid "Statuses"
+msgstr "状态"
+
+#: includes/functions-template-tags.php:249
+msgid "Links"
+msgstr "链接"
+
+#: includes/functions-template-tags.php:246
+msgid "Quotes"
+msgstr "引用"
+
+#: includes/functions-template-tags.php:243
+msgid "Videos"
+msgstr "视频"
+
+#: includes/functions-template-tags.php:240
+msgid "Images"
+msgstr "图像"
+
+#: includes/functions-template-tags.php:237
+msgid "Galleries"
+msgstr "画廊"
+
+#: includes/functions-template-tags.php:234
+msgid "Asides"
+msgstr "旁白"
+
+#: includes/functions-template-tags.php:231
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: includes/functions-template-tags.php:231
+msgid "Yearly Archives: %s"
+msgstr "年度归档：%s"
+
+#: includes/functions-template-tags.php:228
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年m月"
+
+#: includes/functions-template-tags.php:228
+msgid "Monthly Archives: %s"
+msgstr "月度归档：%s"
+
+#: includes/functions-template-tags.php:225
+msgid "Daily Archives: %s"
+msgstr "日度归档：%s"
+
+#: includes/functions-template-tags.php:222
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: includes/functions-template-tags.php:163
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">发表于%1$s </ SPAN> <span class=\"byline\">由%2$s </ SPAN>"
+
+#: includes/functions-template-tags.php:134
+msgid "by"
+msgstr "通过"
+
+#. Translators: (Posted on )(Date)
+#. Translators: ( by )(Author)
+#: includes/functions-template-tags.php:116
+#: includes/functions-template-tags.php:133
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/functions-template-tags.php:117
+msgid "Posted on"
+msgstr "张贴在"
+
+#: includes/functions-template-tags.php:74
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/functions-template-tags.php:73
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: includes/functions-template-tags.php:69 template-parts/loop-nav.php:25
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: includes/functions-template-tags.php:43
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "较新文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/functions-template-tags.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 早期文章"
+
+#: includes/functions-template-tags.php:34 page-templates/blog.php:62
+msgid "Posts navigation"
+msgstr "文章导航"
+
+#: includes/functions-sidebar.php:107
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "9 侧边栏-gallery.php-之后区域会显示在页面上图像已被单击库中"
+
+#: includes/functions-sidebar.php:116
+msgid "Colophon Widget"
+msgstr "跋部件"
+
+#: includes/functions-sidebar.php:117
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "面积 10-侧边栏 colophon.php，100%的宽度页脚部件"
+
+#: includes/functions-sidebar.php:126
+msgid "Top Widget"
+msgstr "顶尖的小部件"
+
+#: includes/functions-sidebar.php:127
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "区域 11 侧边栏-top.php-显示在标题的右侧"
+
+#: includes/functions-sidebar.php:136
+msgid "Footer Widget"
+msgstr "页脚部件"
+
+#: includes/functions-sidebar.php:137
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr "地区 12-侧边栏-footer.php-3 的小部件，每行最多"
+
+#: includes/functions-sidebar.php:86 sidebar-home.php:44
+msgid "Home Widget 2"
+msgstr "首页小工具2"
+
+#: includes/functions-sidebar.php:96 sidebar-home.php:59
+msgid "Home Widget 3"
+msgstr "首页小工具3"
+
+#: includes/functions-sidebar.php:106
+msgid "Gallery Sidebar"
+msgstr "相册边栏"
+
+#: includes/functions-sidebar.php:77
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "区域 6 侧边栏-这个文档-显示在主页上"
+
+#: includes/functions-sidebar.php:87
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "区域 7 侧边栏-这个文档-显示在主页上"
+
+#: includes/functions-sidebar.php:97
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "区域 8 侧边栏-这个文档-显示在主页上"
+
+#: includes/functions-sidebar.php:66
+msgid "Right Sidebar Half Page"
+msgstr "半页右侧边栏"
+
+#: includes/functions-sidebar.php:76 sidebar-home.php:29
+msgid "Home Widget 1"
+msgstr "首页小工具1"
+
+#: includes/functions-sidebar.php:67
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr "地区 5-侧边栏-右-half.php-显示内容/侧边栏半页上的页模板"
+
+#: includes/functions-sidebar.php:56
+msgid "Left Sidebar Half Page"
+msgstr "半页左侧边栏"
+
+#: includes/functions-sidebar.php:47
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr "区域 3 侧边栏-left.php-显示在侧边栏/内容页模板"
+
+#: includes/functions-sidebar.php:57
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr "区 4-侧边栏-左-half.php-显示在侧边栏一半的页面内容页模板"
+
+#: includes/functions-sidebar.php:46
+msgid "Left Sidebar"
+msgstr "边栏在左侧"
+
+#: includes/functions-sidebar.php:37
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr "区域 2 侧边栏-right.php-显示对内容/侧边栏的网页模板"
+
+#: includes/functions-sidebar.php:36
+msgid "Right Sidebar"
+msgstr "边栏在右侧"
+
+#: includes/functions-sidebar.php:27
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "地区 1-用法-在默认情况下，博客，博客节选上显示网页模板"
+
+#: includes/functions-sidebar.php:26
+msgid "Main Sidebar"
+msgstr "主边栏"
+
+#: includes/functions-plugins.php:43
+msgid "Responsive Theme"
+msgstr "Responsive Theme"
+
+#: includes/functions-meta-box.php:42
+msgid "Page Options"
+msgstr "页面选项"
+
+#: includes/functions-meta-box.php:31
+msgid "Page Title"
+msgstr "页面标题"
+
+#: includes/functions-layout.php:104
+msgid "Layout"
+msgstr "布局"
+
+#: includes/functions-extras.php:184
+msgid "Read more %s"
+msgstr "阅读更多 %s"
+
+#: includes/functions-extentions.php:206 includes/functions-extras.php:71
+#: includes/functions-extras.php:105
+msgid "Page %s"
+msgstr "第%s页"
+
+#: includes/functions-extentions.php:59
+msgid "Error 404"
+msgstr "404错误"
+
+#: includes/functions-extentions.php:58
+#: includes/functions-template-tags.php:138
+msgid "View all posts by %s"
+msgstr "查看所有由%s发布的文章"
+
+#: includes/functions-extentions.php:57
+msgid "Posts tagged %s"
+msgstr "标签 %s"
+
+#: includes/functions-extentions.php:55
+msgid "Archive for %s"
+msgstr "文章归档 %s"
+
+#: includes/functions-extentions.php:56
+msgid "Search results for: %s"
+msgstr "%s的搜索结果"
+
+#: includes/functions-extentions.php:54 template-parts/content-none.php:62
+msgid "Home"
+msgstr "首页"
+
+#: image.php:74
+msgid "Posted in %s"
+msgstr "文章分类 %s"
+
+#: image.php:73
+msgid "Tagged with:"
+msgstr "标签："
+
+#: image.php:59
+msgid "Read more &#8250;"
+msgstr "查阅全文 &#8250;"
+
+#: image.php:61 template-parts/content-excerpt.php:40
+#: template-parts/content-page.php:40 template-parts/content-single.php:37
+#: template-parts/content-sitemap.php:48 template-parts/content.php:57
+msgid "Pages:"
+msgstr "页面："
+
+#: image.php:48 template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:40
+msgid "1 Comment &darr;"
+msgstr "1 条评论 &darr;"
+
+#: image.php:48 template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:40
+msgid "% Comments &darr;"
+msgstr "% 条评论 &darr;"
+
+#: image.php:37
+msgid "&#8249; Return to"
+msgstr "&#8249; 返回"
+
+#: image.php:48 template-parts/post-meta-page.php:33
+#: template-parts/post-meta.php:40
+msgid "No Comments &darr;"
+msgstr "暂无评论 &darr;"
+
+#: header.php:48
+msgid "Skip to main menu"
+msgstr "跳到主菜单"
+
+#: header.php:87
+msgid "Mobile menu toggle"
+msgstr "移动菜单切换"
+
+#: header.php:47
+msgid "Skip to content"
+msgstr "跳至正文"
+
+#: footer.php:80
+msgid "scroll to top"
+msgstr "回到顶部"
+
+#: footer.php:80
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: footer.php:72 includes/functions-plugins.php:44
+msgid "WordPress"
+msgstr "WordPress"
+
+#. Translators: Responsive Theme powered by WordPress
+#: footer.php:70 includes/functions-plugins.php:42
+msgid "%1$s powered by %2$s"
+msgstr "由 %2$ s 提供动力的 %1$ s"
+
+#: footer.php:71
+msgid "Responsive II"
+msgstr "回应二"
+
+#: core/functions-theme-upsell.php:157
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: core/functions-theme-upsell.php:153
+msgid "Install Now"
+msgstr "现在安装"
+
+#: core/functions-theme-upsell.php:138
+msgid "Already installed"
+msgstr "WordPress 已经安装"
+
+#: core/functions-theme-upsell.php:92
+msgid "Current theme"
+msgstr "当前主题"
+
+#: core/functions-theme-upsell.php:57
+msgid "Themes You Can Trust"
+msgstr "你可以信任的主题"
+
+#: core/functions-install.php:144
+msgid "%s is not installed. Please install this plugin manually."
+msgstr "不安装 %s。请手动安装此插件。"
+
+#: core/functions-install.php:149
+msgid "Hide Notice"
+msgstr "隐藏通知"
+
+#: core/functions-theme-upsell.php:29 core/functions-theme-upsell.php:30
+#: includes/functions-theme-options-page.php:86
+#: includes/functions-theme-options-page.php:87
+msgid "More Themes"
+msgstr "更多主题"
+
+#: core/functions-install.php:139
+msgid "Install"
+msgstr "安装"
+
+#: core/functions-install.php:134
+msgid "Activate"
+msgstr "启用"
+
+#: core/functions-install.php:121
+msgid "This theme recommends the following plugins:"
+msgstr "本主题建议了以下插件："
+
+#: core/functions-install.php:38 includes/functions-theme-options-page.php:77
+#: includes/functions-theme-options-page.php:78
+msgid "Help"
+msgstr "帮助"
+
+#: core/functions-install.php:37 includes/functions-theme-options-page.php:127
+#: libraries/class-responsive-options.php:62
+#: libraries/class-responsive-options.php:63
+#: libraries/class-responsive-options.php:106
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: core/functions-install.php:35
+msgid "Visit site"
+msgstr "查看站点"
+
+#: core/functions-install.php:31
+msgid "Settings saved and %s activated successfully."
+msgstr "保存设置和 %s 已成功激活。"
+
+#: core/functions-install.php:33
+msgid "%s activated successfully."
+msgstr "%s 已成功激活。"
+
+#: comments.php:101
+msgid "Website"
+msgstr "站点"
+
+#: comments.php:99
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: comments.php:97
+msgid "Name"
+msgstr "姓名"
+
+#: comments.php:79
+msgid "Pings&#47;Trackbacks"
+msgstr "坪 &#47;引用"
+
+#: comments.php:82
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s 为 \"%3$s\""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:46 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:45 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&larr; 早期评论"
+
+#: comments.php:44 comments.php:61
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:37
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "一网友评论\"%2$ s\""
+
+#: comments.php:27
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#. Author URI of the plugin/theme
+msgid "http://cyberchimps.com"
+msgstr "http://cyberchimps.com"
