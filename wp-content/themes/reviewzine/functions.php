@@ -518,3 +518,10 @@ $args = array(
 'default-image' => get_template_directory_uri() . '/img/logo.jpg', //默认logo图
 );
 add_theme_support( 'custom-header', $args );
+
+/*插入表格按钮*/
+/*整理：http://www.dedewp.com/14871.html*/
+function appthemes_add_quicktags() {
+?><script type="text/javascript">// <![CDATA[ 
+QTags.addButton( 'tables', '表格按钮', '<div class="table-container"><table><tbody><tr><th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th><th>Header 6</th><th>Header 7</th><th>Header 8</th></tr><tr><td>row1_cell1</td><td>row1_cell2</td><td>row1_cell3</td><td>row1_cell4</td><td>row1_cell5</td><td>row1_cell6</td><td>row1_cell7</td><td>row1_cell8</td></tr><tr><td>row2_cell1</td><td>row2_cell2</td><td>row2_cell3</td><td>row2_cell4</td><td>row2_cell5</td><td>row2_cell6</td><td>row2_cell7</td><td>row2_cell8</td></tr><tr><td>row3_cell1</td><td>row3_cell2</td><td>row3_cell3</td><td>row3_cell4</td><td>row3_cell5</td><td>row3_cell6</td><td>row3_cell7</td><td>row3_cell8</td></tr></tbody></table></div>' );
+// ]]></script><?php } add_action('admin_print_footer_scripts', 'appthemes_add_quicktags' );

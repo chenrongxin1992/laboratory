@@ -1,0 +1,13 @@
+.gltr_sprite{background:url(assets/tick.png);height:202px;}
+.gltr_working{width:206px; background-position:-23px -70px;}
+.gltr_blocked{width:206px; background-position:201px -70px;}
+.gltr_paused{width:206px; background-position:409px -70px;}
+.gltr_icon-small{
+    zoom:0.29;
+    -moz-transform:scale(0.29);
+    -moz-transform-origin: 0 0;
+}
+column-columdate{width:120px;}
+column-columnstatus{width:60px;}
+column-columnnum{width:100px;}
+column-columnkey{width:200px;}

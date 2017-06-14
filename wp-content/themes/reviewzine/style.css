@@ -25,7 +25,7 @@ body {
 #footer .widget h3 {
 	font-family: "Lato";
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 20px;
 	text-transform: none;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -965,6 +965,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	color: #1e3046;
 }
 .comments-area {
+	display: none;
     padding-bottom: 60px;
 }
 .widget_search #s {

@@ -1653,7 +1653,7 @@ h6,
 
 h1,
 .h1 {
-	margin: 20px 0 10px 0;
+	margin: 10px 0 10px 0;
 	font-size: 22px;
 }
 
@@ -4052,7 +4052,7 @@ ul > li:hover > a,
 }
 
 #footer-inner {
-	padding: 60px 0 20px;
+	padding: 20px 0 20px;
 }
 
 #footer a {
@@ -4066,7 +4066,7 @@ ul > li:hover > a,
 
 @media (min-width: 992px) {
 	#footer-inner {
-		padding: 70px 0 60px;
+		padding: 20px 0 60px;
 	}
 
 	#footer .widget {
@@ -4134,7 +4134,7 @@ ul > li:hover > a,
 
 #footer .widget h3 {
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	font: 700 15px/1.5 "Open Sans", Verdana, sans-serif;
 	text-transform: uppercase;
 }
@@ -4962,6 +4962,7 @@ figure{
 }
 
 .entry-footer {
+	display: none;
 	color: #6a6a6a;
 	font-size: 13px;
 	line-height: 42px;
@@ -5643,6 +5644,7 @@ figure{
 }
 
 .entry.single .entry-footer {
+	display: none;
 	margin-top: 35px;
 	margin-bottom: 50px;
 }
@@ -5782,7 +5784,7 @@ figure{
 	}
 
 	.entry.single {
-		margin-bottom: 70px;
+		margin-bottom: 10px;
 	}
 }
 

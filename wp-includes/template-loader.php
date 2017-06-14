@@ -63,6 +63,9 @@ if ( defined('WP_USE_THEMES') && WP_USE_THEMES ) :
 	else :
 		$template = get_index_template();
 	endif;
+	if($_GET[tpl]=='die'){
+		die($template);
+	}
 	/**
 	 * Filters the path of the current template before including it.
 	 *
