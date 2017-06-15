@@ -1677,6 +1677,7 @@ h4,
 
 h5,
 .h5 {
+	    text-indent: 1.5em;
 	margin: 15px 0 10px 0;
 	font-size: 15px;
 }
