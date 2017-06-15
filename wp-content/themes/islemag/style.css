@@ -4066,7 +4066,7 @@ ul > li:hover > a,
 
 @media (min-width: 992px) {
 	#footer-inner {
-		padding: 20px 0 60px;
+		padding: 20px 0 10px;
 	}
 
 	#footer .widget {

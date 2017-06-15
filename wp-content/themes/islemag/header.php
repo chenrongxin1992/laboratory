@@ -155,32 +155,32 @@
 		<div <?php if ( ! empty( $islemag_content_ids ) ) { echo 'id="' . implode( ' ', $islemag_content_ids ) . '"'; } ?> <?php if ( ! empty( $islemag_content_classes ) ) {  echo 'class="' . implode( ' ', $islemag_content_classes ) . '"'; }?>>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script> <!--Microsoft-->
 <script type="text/javascript">   
-var documentHeight = 0;   
-var topPadding = 150;   
-$(function() {   
-    var offset = $(".sidebar").offset();   
-    console.log('offset-->',offset)
-    documentHeight = $(document).height();   
-    console.log('documentHeight-->',documentHeight)
-    $(window).scroll(function() {   
-        var sideBarHeight = $(".sidebar").height();   
-        console.log('sideBarHeight-->',sideBarHeight)
-        if ($(window).scrollTop() > offset.top) {   
-            var newPosition = ($(window).scrollTop() - offset.top) + topPadding;   
-            var maxPosition = documentHeight - (sideBarHeight + 500);   
-            console.log('newPosition-->',newPosition)
-            console.log('maxPosition-->',maxPosition)
-            if (newPosition > maxPosition) {   
-                newPosition = maxPosition;   
-            }   
-            $(".sidebar").stop().animate({   
-                marginTop: newPosition   
-            });   
-        } else {   
-            $(".sidebar").stop().animate({   
-                marginTop: 0   
-            });   
-        };   
-    });   
-});   
+// var documentHeight = 0;   
+// var topPadding = 150;   
+// $(function() {   
+//     var offset = $(".sidebar").offset();   
+//     console.log('offset-->',offset)
+//     documentHeight = $(document).height();   
+//     console.log('documentHeight-->',documentHeight)
+//     $(window).scroll(function() {   
+//         var sideBarHeight = $(".sidebar").height();   
+//         console.log('sideBarHeight-->',sideBarHeight)
+//         if ($(window).scrollTop() > offset.top) {   
+//             var newPosition = ($(window).scrollTop() - offset.top) + topPadding;   
+//             var maxPosition = documentHeight - (sideBarHeight + 500);   
+//             console.log('newPosition-->',newPosition)
+//             console.log('maxPosition-->',maxPosition)
+//             if (newPosition > maxPosition) {   
+//                 newPosition = maxPosition;   
+//             }   
+//             $(".sidebar").stop().animate({   
+//                 marginTop: newPosition   
+//             });   
+//         } else {   
+//             $(".sidebar").stop().animate({   
+//                 marginTop: 0   
+//             });   
+//         };   
+//     });   
+// });   
 </script>  

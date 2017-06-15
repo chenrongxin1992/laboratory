@@ -21,13 +21,13 @@
 						
 
 						<?php if ( is_active_sidebar( 'islemag-first-footer-area' ) ) {  ?>
-								<div itemscope itemtype="http://schema.org/WPSideBar" class="col-md-4 col-sm-12" id="sidebar-widgets-area-1" aria-label="<?php esc_html_e( 'Widgets Area 1','islemag' ); ?>">
+								<div itemscope itemtype="http://schema.org/WPSideBar" class="col-md-6 col-sm-12" id="sidebar-widgets-area-1" aria-label="<?php esc_html_e( 'Widgets Area 1','islemag' ); ?>">
 									<?php dynamic_sidebar( 'islemag-first-footer-area' ); ?>
 								</div>
 						<?php }
 
 if ( is_active_sidebar( 'islemag-second-footer-area' ) ) {  ?>
-								<div itemscope itemtype="http://schema.org/WPSideBar" role="complementary" id="sidebar-widgets-area-2" class="col-md-4 col-sm-12" aria-label="<?php esc_html_e( 'Widgets Area 2','islemag' ); ?>">
+								<div itemscope itemtype="http://schema.org/WPSideBar" role="complementary" id="sidebar-widgets-area-2" class="col-md-6 col-sm-12" aria-label="<?php esc_html_e( 'Widgets Area 2','islemag' ); ?>">
 									<?php dynamic_sidebar( 'islemag-second-footer-area' ); ?>
 								</div>
 						<?php }
