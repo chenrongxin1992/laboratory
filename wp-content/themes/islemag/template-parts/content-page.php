@@ -22,6 +22,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+		<?php if(function_exists('the_views')) { the_views(true, '<span class="pull-right">','</span>'); } ?>
 	</div><!-- .entry-content -->
 
 	

@@ -29,7 +29,6 @@ get_header(); ?>
 						comments_template();
 						endif;
 					?>
-			<?php if(function_exists('the_views')) { the_views(true, '<span class="pull-right">','</span>'); } ?>
 				<?php endwhile; // End of the loop. ?>
 
 			</main><!-- #main -->
