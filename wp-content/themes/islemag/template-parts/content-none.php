@@ -13,7 +13,7 @@
 
 	  <section class="no-results not-found col-md-9">
 		<header class="page-header">
-		  <h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'islemag' ); ?></h1>
+		  <h1 class="page-title"><?php esc_html_e( '暂时搜索不到结果!', 'islemag' ); ?></h1>
 		</header><!-- End .page-header -->
 
 		<div class="page-content">
@@ -31,7 +31,7 @@
 			<?php
 			elseif ( is_search() ) : ?>
 			  <p>
-				<?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'islemag' ); ?>
+				<?php esc_html_e( '抱歉，没有匹配的搜索结果，请尝试用别的关键词搜索。', 'islemag' ); ?>
 			  </p>
 			<?php
 			  get_search_form();
