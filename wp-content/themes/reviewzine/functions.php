@@ -240,24 +240,27 @@ add_action( 'islemag_main_nav_after', 'reviewzine_container_close' );
  */
 function reviewzine_footer_content() {
 	remove_action( 'islemag_footer_content', 'islemag_footer' ); ?>
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<?php printf(
-			__( '%1$s powered by %2$s', 'reviewzine' ),
-			sprintf( '<a href="https://themeisle.com/themes/islemag/" rel="nofollow">%s</a>', esc_html__( 'ReviewZine', 'reviewzine' ) ),
-			sprintf( '<a href="http://wordpress.org/" rel="nofollow">%s</a>', esc_html__( 'WordPress', 'reviewzine' ) )
+			//__( '%1$s powered by %2$s', 'reviewzine' ),
+			sprintf( '<a href="https://themeisle.com/themes/islemag/" rel="nofollow">%s</a>', esc_html__( 'Theme By ReviewZine', 'reviewzine' ) )
+			//sprintf( '<a href="http://wordpress.org/" rel="nofollow">%s</a>', esc_html__( 'WordPress', 'reviewzine' ) )
 		); ?>
 	</div><!-- End .col-md-6 -->
-	<div class="col-md-8">
+	<div class="col-md-6">
 		<?php
+			printf(
+				sprintf(  esc_html__( '2017 @ 大数据系统计算技术国家工程实验室', 'reviewzine' ) )
+			);
+		// $defaults = array(
+		// 	'theme_location'  => 'islemag-footer',
+		// 	'fallback_cb'     => false,
+		// 	'items_wrap'      => '<ul class="footer-menu" id="%1$s" class="%2$s">%3$s</ul>',
+		// 	'depth'           => 1,
+		// );
 
-		$defaults = array(
-			'theme_location'  => 'islemag-footer',
-			'fallback_cb'     => false,
-			'items_wrap'      => '<ul class="footer-menu" id="%1$s" class="%2$s">%3$s</ul>',
-			'depth'           => 1,
-		);
+		// wp_nav_menu( $defaults ); ?>
 
-		wp_nav_menu( $defaults ); ?>
 	</div><!-- End .col-md-6 -->
 	<?php
 

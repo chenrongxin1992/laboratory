@@ -340,7 +340,7 @@ div#footer-inner {
 }
 .entry-date {
 	padding-top: 0;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	background: #fff;
 	border-bottom: 1px solid #ffa71c;
 }
@@ -359,8 +359,17 @@ div#footer-inner {
 	height: 198px;
 	max-height: 240px;
 	background-image: url( 'images/date-line.png' );
+	top: 0px;
+}
+.search .entry:after {
+	background-color: transparent;
+	width: 0px;
+	height: 198px;
+	max-height: 240px;
+	background-image: url( 'images/date-line.png' );
 	top: 97px;
 }
+
 .post header.entry-header {
 	padding: 20px 0;
 	border-top: 1px solid #eaeaea;

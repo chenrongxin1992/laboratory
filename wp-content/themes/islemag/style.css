@@ -4849,11 +4849,13 @@ ul > li:hover > a,
 }
 
 .blog .entry,
-.archive .entry,
-.search .entry {
+.archive .entry {
 	min-height: 190px;
 }
 
+.search .entry {
+	
+}
 .islemag-top-carousel .entry-media figure {
 	height: 400px;
 }
