@@ -2000,7 +2000,7 @@ blockquote {
 }
 
 .main-navigation .sub-menu a {
-	min-width: 320px;
+	min-width: 270px;
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -5952,3 +5952,7 @@ figure{
 	font-size: 16px;
 	vertical-align: top;
 }
+h5 span{
+	line-height: 29px;
+}
+h5 span a{color:#ffa71c;}
