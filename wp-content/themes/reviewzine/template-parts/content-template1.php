@@ -31,7 +31,7 @@ if ( $wp_query->have_posts() ) : ?>
                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a>
             </span>
             <!-- 显示发布日期 -->
-            <span class="post-date"><i class="fa fa-calendar-o" style="padding-right: 2px;"></i><?php echo esc_html( get_the_date() ); ?></span>
+            <span class="post-date"><i class="fa fa-calendar-o" style="padding-right: 2px;color: #8d8d8d;"></i><?php echo esc_html( get_the_date() ); ?></span>
         </li>
 			
 
