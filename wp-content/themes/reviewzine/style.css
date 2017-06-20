@@ -355,7 +355,7 @@ div#footer-inner {
 }
 .entry:after {
 	background-color: transparent;
-	width: 3px;
+	width: 0px;
 	height: 198px;
 	max-height: 240px;
 	background-image: url( 'images/date-line.png' );
@@ -940,7 +940,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .islemag-section4 h2,
 .islemag-section5 h2,
 .islemag-section2 h2 {
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: bold;
 }
 .islemag-section1 .entry-overlay-date,

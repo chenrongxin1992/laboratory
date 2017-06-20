@@ -734,7 +734,7 @@ function islemag_display_section( $section_nb, $is_hidden = false ) {
 	$islemag_section = get_theme_mod( 'islemag_section' . $section_nb . '_fullwidth', false );
 	$islemag_section_category = esc_attr( get_theme_mod( 'islemag_section' . $section_nb . '_category', 'all' ) );
 	$islemag_section_max_posts = absint( get_theme_mod( 'islemag_section' . $section_nb . '_max_posts', 6 ) ); ?>
-	<div class="islemag-section<?php echo $section_nb;
+	<div class="col-md-6 islemag-section<?php echo $section_nb;
 	if ( $is_hidden === true ) {  echo ' islemag_only_customizer ';}?>">
 		<?php
 		if ( $islemag_has_sidebar ) {  ?>

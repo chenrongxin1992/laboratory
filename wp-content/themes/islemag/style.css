@@ -3706,10 +3706,12 @@ styled buttons not container for vertical centered navs*/
 }
 
 .site-header .islemag-ad-banner-content {
+	display: none;
 	text-align: right;
 }
 
 .sidebar .widget {
+	display: none;
 	margin-bottom: 50px;
 }
 
@@ -4854,7 +4856,7 @@ ul > li:hover > a,
 }
 
 .search .entry {
-	
+
 }
 .islemag-top-carousel .entry-media figure {
 	height: 400px;
@@ -5958,3 +5960,61 @@ h5 span{
 	line-height: 29px;
 }
 h5 span a{color:#ffa71c;}
+
+.contain_1 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.contain_1 .out{
+	overflow: hidden;
+    position: relative;
+}
+.article-list{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:14px;
+	margin:0;
+}
+.article-list li {
+	border-bottom:1px dotted #DDDDDD;
+	list-style:none;
+	line-height:2em;
+}
+.wp-pagenavi {
+	margin:10px 0;
+}
+.wp-pagenavi a:hover,.wp-pagenavi span.current {
+	border:none;
+	background:#C72730;
+	font-weight:normal !important;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+    border: none !important;
+	background: #333333;
+	color: #FFFFFF;
+    margin: 0 !important;
+    padding: 5px 8px !important;	
+}
+.post-comment, .post-date  {
+	float:right;
+	list-style:none;
+	line-height:2em;
+}
+.post-title {
+	vertical-align: bottom;
+    display: inline-block;
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    display: -moz-inline-box;
+    list-style:none;
+	line-height:2em;
+}
+.post-date {
+	vertical-align: bottom;
+	display: inline-block;
+
+}

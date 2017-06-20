@@ -291,7 +291,7 @@ add_filter( 'islemag_post_navigation_filter', 'reviewzine_the_post_navigation' )
  */
 function reviewzine_archive_content_classes( $classes ) {
 	if ( is_array( $classes ) ) {
-		$classes[] = 'col-md-8';
+		$classes[] = 'col-md-12';
 		return array_diff( $classes, array( 'col-md-9' ) );
 	}
 	return '';
