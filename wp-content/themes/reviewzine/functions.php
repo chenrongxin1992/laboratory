@@ -531,3 +531,15 @@ QTags.addButton( 'tables', '表格按钮', '<div class="table-container"><table>
 
 //移除文章自动添加p标签
 remove_filter (  'the_content' ,  'wpautop'  );
+
+//设置图片默认格式
+/**
+ * WordPress 设置图片的默认显示方式（尺寸/对齐方式/链接到）
+ * https://www.wpdaxue.com/image-default-size-align-link-type.html
+ */
+add_action( 'after_setup_theme', 'default_attachment_display_settings' );
+function default_attachment_display_settings() {
+	update_option( 'image_default_align', 'left' );
+	update_option( 'image_default_link_type', 'none' );
+	update_option( 'image_default_size', 'full' );
+}

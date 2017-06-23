@@ -2000,7 +2000,7 @@ blockquote {
 }
 
 .main-navigation .sub-menu a {
-	min-width: 270px;
+	min-width: 220px;
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -2009,7 +2009,7 @@ blockquote {
 }
 
 .main-navigation .children a {
-	min-width: 320px;
+	min-width: 220px;
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -3966,6 +3966,7 @@ ul > li:hover > a,
 }
 
 .entry.entry-overlay .entry-media {
+	min-height: 170px;
 	position: relative;
 }
 
@@ -5973,7 +5974,7 @@ h5 span a{color:#ffa71c;}
 }
 .article-list{
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:14px;
+
 	margin:0;
 }
 .article-list li {
@@ -5997,14 +5998,14 @@ h5 span a{color:#ffa71c;}
     padding: 5px 8px !important;	
 }
 .post-comment, .post-date  {
-	float:right;
 	list-style:none;
 	line-height:2em;
 }
 .post-title {
+	font-size: 15px;
 	vertical-align: bottom;
     display: inline-block;
-    width: 70%;
+    width: 60%;
     white-space: nowrap;
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
@@ -6014,7 +6015,16 @@ h5 span a{color:#ffa71c;}
 	line-height:2em;
 }
 .post-date {
+	float: right;
 	vertical-align: bottom;
 	display: inline-block;
 	color: #8d8d8d;
 }
+.islemag-content-left ,.col-md-12{
+	padding:0 0 ;
+}
+/* @media screen and (max-width:350px){//当屏幕小于350px时隐藏
+ 	.post-date{
+ 		display: none;
+ 	}
+} */
