@@ -6028,3 +6028,9 @@ h5 span a{color:#ffa71c;}
  		display: none;
  	}
 } */
+h3 a span {
+	margin-left: -15px;
+}
+h3 a:hover>span{
+ 	color: #ffa71c;
+}

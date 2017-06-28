@@ -744,9 +744,13 @@ function islemag_display_section( $section_nb, $is_hidden = false ) {
 			<?php
 		}
 		$choose_color = array_rand( $colors, 1 );
-		if ( ! empty( $islemag_section_title ) ) { ?>
-			<h2 class="title-border title-bg-line <?php echo apply_filters( 'islemag_line_color', $colors[ $choose_color ] );?> mb30">
-				<span><?php echo esc_attr( $islemag_section_title ); ?></span>
+		if ( ! empty( $islemag_section_title ) ) { 
+			$category_id = get_cat_ID( $islemag_section_title );
+			$category_link = get_category_link( $category_id );
+		?>
+			<h3 class="title-border title-bg-line <?php echo apply_filters( 'islemag_line_color', $colors[ $choose_color ] );?> mb30">
+				<a href="<?php echo $category_link; ?>" title="<?php echo $islemag_section_title; ?>" class="myhover">
+				<span><?php echo esc_attr( $islemag_section_title ); ?></span></a>
 			</h2>
 			<?php
 		} else {
