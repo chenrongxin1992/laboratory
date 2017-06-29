@@ -6034,3 +6034,6 @@ h3 a span {
 h3 a:hover>span{
  	color: #ffa71c;
 }
+.wp-post-image{
+	display: none;
+}
