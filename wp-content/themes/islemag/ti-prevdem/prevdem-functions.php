@@ -64,7 +64,7 @@ function islemag_get_prevdem_img_src( $i = 0 ) {
 function islemag_the_post_thumbnail( $input ) {
 	if ( empty( $input ) ) {
 		$placeholder = islemag_get_prevdem_img_src();
-		return '<img width="770" height="430" src="' . esc_url( $placeholder ) . '" class="wp-post-image">';
+		return '<img width="770" height="430" src="' . esc_url( $placeholder ) . '" class="wp-post-image" style="display:none;">';
 	}
 	return $input;
 

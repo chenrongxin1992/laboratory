@@ -6036,9 +6036,9 @@ h3 a span {
 h3 a:hover>span{
  	color: #ffa71c;
 }
-.wp-post-image{
+/* .wp-post-image{
 	display: none;
-}
+} */
 span.pull-right{
 	    margin: 0 5px;
 }
