@@ -4854,7 +4854,7 @@ ul > li:hover > a,
 
 .blog .entry,
 .archive .entry {
-	min-height: 190px;
+	min-height: 100px;
 }
 
 .search .entry {
