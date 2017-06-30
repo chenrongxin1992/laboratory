@@ -6022,8 +6022,8 @@ h5 span a{color:#ffa71c;}
 	color: #8d8d8d;
 }
 .islemag-content-left ,.col-md-12{
-	padding:0 0 ;
-	margin:-15px -15px;
+	padding:0 15px ;
+
 }
 /* @media screen and (max-width:350px){//当屏幕小于350px时隐藏
  	.post-date{
@@ -6038,4 +6038,7 @@ h3 a:hover>span{
 }
 .wp-post-image{
 	display: none;
+}
+span.pull-right{
+	    margin: 0 5px;
 }
