@@ -250,7 +250,7 @@ function reviewzine_footer_content() {
 	<div class="col-md-6">
 		<?php
 			printf(
-				sprintf(  esc_html__( '2017 @ 大数据系统计算技术国家工程实验室', 'reviewzine' ) )
+				sprintf(  esc_html__( '2017 © 大数据系统计算技术国家工程实验室', 'reviewzine' ) )
 			);
 		// $defaults = array(
 		// 	'theme_location'  => 'islemag-footer',
