@@ -6021,10 +6021,7 @@ h5 span a{color:#ffa71c;}
 	display: inline-block;
 	color: #8d8d8d;
 }
-.islemag-content-left ,.col-md-12{
-	padding:0 15px ;
 
-}
 /* @media screen and (max-width:350px){//当屏幕小于350px时隐藏
  	.post-date{
  		display: none;
@@ -6042,10 +6039,8 @@ h3 a:hover>span{
 span.pull-right{
 	    margin: 0 5px;
 }
-.islemag-section1{
-	margin-left: -15px;
-}
-.islemag-section2{
+
+/* .islemag-section2{
 	margin-left: -15px;
 }
 .islemag-section3{
@@ -6056,4 +6051,43 @@ span.pull-right{
 }
 .islemag-section5{
 	margin-left: -15px;
+} */
+/* @media (max-width: 415px){//当屏幕小于350px时隐藏
+	.islemag-content-left ,.col-md-12{
+		padding:0 15px ;
+
+	}
+
+} */
+.col-md-6.islemag-section1{
+		margin-left: -15px;
+}
+.col-md-6.islemag-section2{
+		margin-left: -15px;
+}
+.col-md-6.islemag-section3{
+		margin-left: -15px;
+}
+.col-md-6.islemag-section4{
+		margin-left: -15px;
+}
+.col-md-6.islemag-section5{
+		margin-left: -15px;
+}
+@media (max-width: 767px) {
+	.col-md-6.islemag-section1{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section2{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section3{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section4{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section5{
+		margin: 0 -25px;
+	}
 }
