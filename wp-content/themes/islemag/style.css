@@ -1918,13 +1918,13 @@ blockquote {
 .header-logo-wrap h1 {
 	margin: 0;
     vertical-align: middle;
-    line-height: 100px;
+    /* line-height: 100px; */
 }
 
 .header-content {
-	display: table;
+	/* display: table; */
 	width: 100%;
-	min-height: 100px;
+	/* min-height: 100px; */
 }
 
 .navbar-brand {
