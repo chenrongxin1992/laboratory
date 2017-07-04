@@ -6042,18 +6042,36 @@ h3 a:hover>span{
 span.pull-right{
 	    margin: 0 5px;
 }
-.islemag-section1{
-	margin-left: -15px;
+
+.col-md-6.islemag-section1{
+		margin-left: -15px;
 }
-.islemag-section2{
-	margin-left: -15px;
+.col-md-6.islemag-section2{
+		margin-left: -15px;
 }
-.islemag-section3{
-	margin-left: -15px;
+.col-md-6.islemag-section3{
+		margin-left: -15px;
 }
-.islemag-section4{
-	margin-left: -15px;
+.col-md-6.islemag-section4{
+		margin-left: -15px;
 }
-.islemag-section5{
-	margin-left: -15px;
+.col-md-6.islemag-section5{
+		margin-left: -15px;
+}
+@media (max-width: 767px) {
+	.col-md-6.islemag-section1{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section2{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section3{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section4{
+		margin: 0 -25px;
+	}
+	.col-md-6.islemag-section5{
+		margin: 0 -25px;
+	}
 }
