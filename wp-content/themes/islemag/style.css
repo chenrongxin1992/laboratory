@@ -6074,4 +6074,7 @@ span.pull-right{
 	.col-md-6.islemag-section5{
 		margin: 0 -25px;
 	}
+	.islemag-content-left ,.col-md-12{
+		padding:0 5px;
+	}
 }
