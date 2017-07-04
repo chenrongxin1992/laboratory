@@ -6040,25 +6040,6 @@ span.pull-right{
 	    margin: 0 5px;
 }
 
-/* .islemag-section2{
-	margin-left: -15px;
-}
-.islemag-section3{
-	margin-left: -15px;
-}
-.islemag-section4{
-	margin-left: -15px;
-}
-.islemag-section5{
-	margin-left: -15px;
-} */
-/* @media (max-width: 415px){//当屏幕小于350px时隐藏
-	.islemag-content-left ,.col-md-12{
-		padding:0 15px ;
-
-	}
-
-} */
 .col-md-6.islemag-section1{
 		margin-left: -15px;
 }
