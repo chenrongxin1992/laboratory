@@ -26,7 +26,7 @@ define('DB_NAME', 'wordpress');
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'A_Diffcult_Password_0704');
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
