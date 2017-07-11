@@ -6,7 +6,7 @@
  *
  * @package islemag
  */
-
+// error_reporting(1);
 	$post_id = get_the_ID();
 ?>
 
@@ -16,7 +16,12 @@
 				<?php $categorys = get_the_category(); //var_dump($categorys);
 				$category = $categorys[0]; //var_dump($category);
 				//var_dump(get_category_parents($category->term_id,true,’>>’));
-				echo(get_category_parents(intval($category->term_id),true,’>>’)); ?>  <?php the_title()?>  </p>
+				//$num = intval($category->term_id);
+				if(is_numeric($category->term_id)){
+					//var_dump($category->term_id);
+					echo(get_category_parents((int)$category->term_id,true,’>>’));
+				}?>  
+				<?php the_title()?>  </p>
 				<article id="post-<?php echo $post_id; ?>" <?php post_class( 'entry single' ); ?>>
 					<?php
 					$islemag_single_post_hide_thumbnail = get_theme_mod( 'islemag_single_post_hide_thumbnail','1' );
