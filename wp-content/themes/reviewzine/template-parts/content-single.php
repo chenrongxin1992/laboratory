@@ -12,7 +12,10 @@
 
 		  <div class="row">
 			<div class="col-md-12">
-
+				<p style="font-family:Lato;font-weight: bold;padding: 0 4px;">  当前位置&nbsp;:&nbsp; <a href="<?php bloginfo('url');?>">首页</a>>><?php $categorys = get_the_category(); //var_dump($categorys);
+				$category = $categorys[0]; //var_dump($category);
+				//var_dump(get_category_parents($category->term_id,true,’>>’));
+				echo(get_category_parents($category->term_id,true,’>>’)); ?>  <?php the_title()?>  </p>
 				<article id="post-<?php echo $post_id; ?>" <?php post_class( 'entry single' ); ?>>
 					<?php
 					$islemag_single_post_hide_thumbnail = get_theme_mod( 'islemag_single_post_hide_thumbnail','1' );

@@ -250,7 +250,7 @@ function reviewzine_footer_content() {
 	<div class="col-md-6">
 		<?php
 			printf(
-				sprintf(  esc_html__( '2017 @ 大数据系统计算技术国家工程实验室', 'reviewzine' ) )
+				sprintf(  esc_html__( '2017 © 大数据系统计算技术国家工程实验室', 'reviewzine' ) )
 			);
 		// $defaults = array(
 		// 	'theme_location'  => 'islemag-footer',
@@ -546,7 +546,7 @@ function default_attachment_display_settings() {
 
 //保护后台登录
 //http://172.31.74.5/wordpress/wp-login.php?admin_login=trytrylook
-add_action('login_enqueue_scripts','login_protection');  
-function login_protection(){  
-    if($_GET['admin_login'] != 'trytrylook')header('Location: http://bdsc.szu.edu.cn/');  
-}
+// add_action('login_enqueue_scripts','login_protection');  
+// function login_protection(){  
+//     if($_GET['admin_login'] != 'trytrylook')header('Location: http://bdsc.szu.edu.cn/');  
+// }

@@ -12,7 +12,6 @@
 
 		  <div class="row">
 			<div class="col-md-12">
-
 				<article id="post-<?php echo $post_id; ?>" <?php post_class( 'entry single' ); ?>>
 					<?php
 					$islemag_single_post_hide_thumbnail = get_theme_mod( 'islemag_single_post_hide_thumbnail','1' );

@@ -6077,4 +6077,20 @@ span.pull-right{
 	.islemag-content-left ,.col-md-12{
 		padding:0 5px;
 	}
+	.entry.single .entry-title{
+		font-size: 20px !important;
+	}
+	h2, .h2{
+		margin: 0 0;
+	}
+	.page-content, .entry-content, .entry-summary{
+		margin:14px 0 ;
+		padding: 0 0 ;
+	}
+	.entry.single .entry-title{
+		margin-bottom :0 ;
+	}
+	.main-navigation li a {
+		padding: 8px 15px;
+	}
 }

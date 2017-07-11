@@ -8,7 +8,9 @@
  */
 
 ?>
-
+<p style="font-family:Lato;font-weight: bold;padding: 0 4px;">  当前位置&nbsp;:&nbsp; <a href="<?php bloginfo('url');?>">首页</a>
+>>
+<?php the_title()?>  </p>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
