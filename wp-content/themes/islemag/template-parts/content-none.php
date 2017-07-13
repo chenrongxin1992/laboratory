@@ -12,9 +12,9 @@
 	<div class="row">
 
 	  <section class="no-results not-found col-md-9">
-		<header class="page-header">
-		  <h1 class="page-title"><?php esc_html_e( '暂时搜索不到结果!', 'islemag' ); ?></h1>
-		</header><!-- End .page-header -->
+		<!-- <header class="page-header"> -->
+		  <h1 class="page-title"><?php esc_html_e( '该栏目暂时没有内容!', 'islemag' ); ?></h1>
+		<!-- </header> --><!-- End .page-header -->
 
 		<div class="page-content">
 			<?php
@@ -37,7 +37,7 @@
 			  get_search_form();
 			else : ?>
 			  <p>
-				<?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'islemag' ); ?>
+				<?php esc_html_e( '搜索一下试试吧！', 'islemag' ); ?>
 			  </p>
 			<?php
 			get_search_form();
