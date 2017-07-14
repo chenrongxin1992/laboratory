@@ -545,8 +545,9 @@ function default_attachment_display_settings() {
 }
 
 //保护后台登录
-//http://172.31.74.5/wordpress/wp-login.php?admin_login=trytrylook
-// add_action('login_enqueue_scripts','login_protection');  
-// function login_protection(){  
-//     if($_GET['admin_login'] != 'trytrylook')header('Location: http://bdsc.szu.edu.cn/');  
-// }
+http://172.31.74.5/wordpress/wp-login.php?admin_login=trytrylook
+add_action('login_enqueue_scripts','login_protection');  
+function login_protection(){  
+    if($_GET['admin_login'] != 'trytrylook')header('Location: http://bdsc.szu.edu.cn/');  
+}
+
