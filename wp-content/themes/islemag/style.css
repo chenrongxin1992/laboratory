@@ -4869,7 +4869,7 @@ ul > li:hover > a,
 }
 
 .islemag-template1-posts .entry-media figure a img {
-	max-height: 270px;
+	max-height: 170px;
 }
 
 .islemag-template2 .entry-media figure,
@@ -4899,8 +4899,8 @@ ul > li:hover > a,
 }
 
 .entry-media a img {
-	width: 300px;
-	max-height: 430px;
+	/*width: 300px;
+	max-height: 430px;*/
 }
 figure{
 	max-height: 300px !important;
@@ -6092,5 +6092,22 @@ span.pull-right{
 	}
 	.main-navigation li a {
 		padding: 8px 15px;
+	}
+	
+	
+}
+@media (max-width: 990px) {
+	.islemag-template1-posts .entry-media figure a img {
+		max-height: 270px;
+	}
+	.entry.entry-overlay .entry-media {
+		min-height: 270px;
+		position: relative;
+	}
+}
+@media screen and (min-width: 990px) and (max-width: 1199px) {
+	.entry.entry-overlay .entry-media {
+		min-height: 130px;
+		position: relative;
 	}
 }
