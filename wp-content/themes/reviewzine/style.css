@@ -14,23 +14,27 @@
  /* Hover color: #ffa71c; */
 
 body {
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 }
 
 .sidebar .widget h3 {
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 	font-weight: bold;
 	font-size: 22px;
 }
 #footer .widget h3 {
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: none;
 	color:#ffa71c;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 }
 .main-navigation .current_page_item > a, 
 .main-navigation .current-menu-item > a, 
@@ -99,7 +103,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .navbar-top {
     background: #1e3046;
     border-bottom: 0 none;
-	font-family: "Lato", sans-serif;
+	/*font-family: "Lato", sans-serif;*/
+	font-family: "Microsoft YaHei",sans-serif;
 }
 .navbar-top .container {
 	position: relative;
@@ -110,7 +115,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .navbar-top .social-icons a {
 	color: #fff;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -147,7 +152,8 @@ div#navbar {
 	text-transform: none;
 	position: relative;
 	color: #1e3046;
-	font-family: "Lato", sans-serif;
+	/*font-family: "Lato", sans-serif;*/
+	font-family: "Microsoft YaHei",sans-serif;
 	font-size: 15px;
 }
 .main-navigation li:hover > a:before,
@@ -201,7 +207,7 @@ div#footer-inner {
 #footer.footer-inverse {
 	color: #fff;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 /* FrontPage Sections */
@@ -241,7 +247,7 @@ div#footer-inner {
 	margin-top: 10px;
 }
 .entry-block .entry-title a {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 }
 .islemag-top-container .entry-block .entry-title a {
@@ -331,7 +337,7 @@ div#footer-inner {
 	color: #fff;
 	padding-bottom: 18px;
 	padding-top: 16px;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 }
 .entry-format{
@@ -408,7 +414,8 @@ h3#reply-title,
 	line-height: 30px;
 	padding: 0;
 	font-size: 30px;
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 	font-weight: 400;
 }
 h3.blog-related-carousel-title:after,
@@ -955,7 +962,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	padding-left: 17%;
 }
 .entry.single .entry-title {
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bold;
 }
 .post .entry-content p {
@@ -1076,7 +1083,8 @@ div.affiliate-button a {
 	color: #fff;
 	border-radius: 5px;
 	font-size: 15px;
-	font-family: "Lato";
+	/*font-family: "Lato";*/
+	font-family: "Microsoft YaHei",sans-serif;
 	font-weight: bold;
 }
 
