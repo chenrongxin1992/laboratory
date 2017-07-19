@@ -12,7 +12,7 @@
 
 		  <div class="row">
 			<div class="col-md-12">
-				<p style="font-family:Lato;font-weight: bold;padding: 0 4px;">  当前位置&nbsp;:&nbsp; <a href="<?php bloginfo('url');?>"><i class="fa fa-home" aria-hidden="true"></i>首页</a>>>
+				<p style="font-family:Lato;font-weight: bold;padding: 0 4px;">  当前位置&nbsp;:&nbsp; <a href="<?php bloginfo('url');?>"><i class="fa fa-home" aria-hidden="true"></i>首页</a>&nbsp;&nbsp;>&nbsp;&nbsp;
 				<?php $categorys = get_the_category(); //var_dump($categorys);
 				$category = $categorys[0]; //var_dump($category);
 				//var_dump(get_category_parents($category->term_id,true,’>>’));

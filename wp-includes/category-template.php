@@ -1323,9 +1323,10 @@ function get_term_parents_list( $term_id, $taxonomy, $args = array() ) {
 	foreach ( array_reverse( $parents ) as $term_id ) {
 		$parent = get_term( $term_id, $taxonomy );
 		$name   = ( 'slug' === $args['format'] ) ? $parent->slug : $parent->name;
-		$args['separator'] = '>>';
+		$args['separator'] = '  >  ';
 		if ( $args['link'] ) {
-			$list .= '<a href="' . esc_url( get_term_link( $parent->term_id, $taxonomy ) ) . '">' . $name . '</a>' . $args['separator'];
+			$list .= '<a href="' . esc_url( get_term_link( $parent->term_id, $taxonomy ) ) . '">' . $name . '</a>' . 
+			' '.$args['separator'] .' ';
 		} else {
 			$list .= $name . $args['separator'];
 		}

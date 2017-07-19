@@ -4906,8 +4906,10 @@ ul > li:hover > a,
 }
 
 .entry-media a img {
-	/*width: 300px;
-	max-height: 430px;*/
+	width: 300px;
+	max-height: 430px;
+	/*width: auto;
+    max-height: 300px;*/
 }
 figure{
 	max-height: 300px !important;

@@ -10,7 +10,7 @@
 ?>
 <p style="font-family:Lato;font-weight: bold;padding: 0 4px;">  当前位置&nbsp;:&nbsp; <a href="<?php bloginfo('url');?>">
 <i class="fa fa-home" aria-hidden="true"></i>首页</a>
->>
+&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;
 <?php the_title()?>  </p>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
