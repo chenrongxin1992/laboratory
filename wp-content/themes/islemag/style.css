@@ -3972,7 +3972,8 @@ ul > li:hover > a,
 }
 
 .entry.entry-overlay .entry-media {
-	min-height: 170px;
+	/*min-height: 170px;*/
+	min-height: 130px;
 	position: relative;
 }
 
@@ -6016,7 +6017,7 @@ h5 span a{color:#ffa71c;}
 	line-height:2em;
 }
 .post-title {
-	font-size: 15px;
+	font-size: 14px;
 	vertical-align: bottom;
     display: inline-block;
     width: 60%;
@@ -6126,4 +6127,9 @@ span.pull-right{
 }
 b, strong {
 	font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px !important;
+  }
 }
