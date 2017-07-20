@@ -55,8 +55,8 @@ if ( $wp_query->have_posts() ) : ?>
 			<h3 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 			<div class="entry-meta">
 				<span class="entry-overlay-date"><i class="fa fa-calendar-o"></i><?php echo get_the_date( 'j F Y' ); ?></span>
-				<span class="entry-separator">|</span>
-				<a href="<?php the_permalink(); ?>" class="entry-comments"><i class="fa fa-comment-o"></i><?php comments_number( '0', '1', '%' ); ?></a>
+				<!-- <span class="entry-separator">|</span>
+				<a href="<?php //the_permalink(); ?>" class="entry-comments"><i class="fa fa-comment-o"></i><?php //comments_number( '0', '1', '%' ); ?></a> -->
 			</div>
 			<?php
 			if ( function_exists( 'cwppos_calc_overall_rating' ) ) {
