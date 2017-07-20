@@ -4899,7 +4899,7 @@ ul > li:hover > a,
 }
 
 .entry-media a img {
-	max-width: 300px;
+	/*max-width: 400px;*/
 	max-height: 300px;
 	/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 }
@@ -6119,5 +6119,10 @@ span.pull-right{
 	.entry.entry-overlay .entry-media {
 		min-height: 130px;
 		position: relative;
+	}
+	.entry-media a img {
+		max-width: 400px;
+		max-height: 300px;
+		/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 	}
 }

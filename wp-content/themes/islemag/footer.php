@@ -60,4 +60,5 @@ if ( is_active_sidebar( 'islemag-third-footer-area' ) ) {  ?>
 <?php wp_footer(); ?>
 
 </body>
+<?php include_once("baidu_js_push.php") ?>
 </html>

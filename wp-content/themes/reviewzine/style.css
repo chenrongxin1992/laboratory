@@ -294,7 +294,7 @@ div#footer-inner {
 	font-size: 20px;
 }
 .archive .entry-title a {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 }
 .archive .entry-content {
@@ -955,7 +955,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	padding-left: 17%;
 }
 .entry.single .entry-title {
-	font-size: 22px;
+	font-size: 19px;
 	font-weight: bold;
 }
 .post .entry-content p {
