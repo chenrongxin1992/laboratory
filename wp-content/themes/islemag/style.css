@@ -4899,8 +4899,9 @@ ul > li:hover > a,
 }
 
 .entry-media a img {
-	/*width: 300px;
-	max-height: 430px;*/
+	max-width: 300px;
+	max-height: 300px;
+	/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 }
 figure{
 	max-height: 300px !important;
@@ -6106,6 +6107,15 @@ span.pull-right{
 	}
 }
 @media screen and (min-width: 990px) and (max-width: 1199px) {
+	.entry.entry-overlay .entry-media {
+		min-height: 130px;
+		position: relative;
+	}
+}
+@media (min-width: 1200px) {
+	.container{
+		width: 970px !important;
+	}
 	.entry.entry-overlay .entry-media {
 		min-height: 130px;
 		position: relative;
