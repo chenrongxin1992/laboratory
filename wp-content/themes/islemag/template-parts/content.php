@@ -81,7 +81,15 @@
 			<span class="entry-format"><i class="fa <?php echo $icon_class; ?>"></i></span>
 	<?php
 	} ?>
-	<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+	<!-- <?php //the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?> -->
+	<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title_attribute(); ?></a> 
+		<?php   
+		    $t1=$post->post_date;   
+		    $t2=date("Y-m-d H:i:s");   
+		    $diff=(strtotime($t2)-strtotime($t1))/36000;   //十天内
+		    if($diff<24){echo '<img class="new-post" src="'.get_bloginfo('template_directory').'/img/new.gif" />';}   
+		?> 
+	</h2>
 
 	<div class="entry-content">
 		<?php

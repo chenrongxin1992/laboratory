@@ -6126,3 +6126,11 @@ span.pull-right{
 		/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 	}
 }
+img .new-post {
+	position: absolute;
+	width: 44px;
+	height: 45px;
+	right: -3px;
+	top: -3px;
+	z-index: 10;
+}

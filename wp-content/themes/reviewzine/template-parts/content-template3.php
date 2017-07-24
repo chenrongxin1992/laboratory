@@ -32,6 +32,12 @@ if ( $wp_query->have_posts() ) : ?>
 
 				<span class="post-title">
 	                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a>
+	                    <?php   
+						    $t1=get_the_date("Y-m-d H:i:s"); //var_dump($t1);
+						    $t2=date("Y-m-d H:i:s");   
+						    $diff=(strtotime($t2)-strtotime($t1))/36000;   //十天内
+						    if($diff<24){echo '<img class="new-post" src="'.get_bloginfo('template_directory').'/img/new.gif" />';}   
+						?>
 	            </span>
 	            <!-- 显示发布日期 -->
 	           <span class="post-date"><i class="fa fa-calendar-o" style="padding-right: 2px;color: #8d8d8d;"></i><?php echo esc_html( get_the_date() ); ?></span>

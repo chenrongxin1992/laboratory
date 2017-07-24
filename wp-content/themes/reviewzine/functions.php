@@ -551,3 +551,15 @@ function login_protection(){
     if($_GET['admin_login'] != 'trytrylook')header('Location: http://bdsc.szu.edu.cn/');  
 }
 
+// function add_top_title_icon($title)
+// {
+//     global $post;
+//     $title_icon_top=get_bloginfo('template_directory').'/images/new.gif';
+//     $sticky = get_option('sticky_posts');
+//     if($sticky)
+//     {
+//     $title=in_array($post->ID,$sticky)?'<img src="'.$title_icon_top.'" />'.$title:$title;
+//     }
+//     return $title;
+// }
+// add_filter('the_title','add_top_title_icon',999);
