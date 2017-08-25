@@ -6108,7 +6108,7 @@ span.pull-right{
 }
 @media screen and (min-width: 990px) and (max-width: 1199px) {
 	.entry.entry-overlay .entry-media {
-		min-height: 130px;
+		min-height: 170px;
 		position: relative;
 	}
 }
@@ -6117,7 +6117,7 @@ span.pull-right{
 		width: 970px !important;
 	}
 	.entry.entry-overlay .entry-media {
-		min-height: 130px;
+		min-height: 165px;
 		position: relative;
 	}
 	.entry-media a img {
