@@ -69,6 +69,7 @@ html {
 
 body {
 	margin: 0;
+	bg-color: #E5EEF5;
 }
 
 body.custom-background {
@@ -6133,4 +6134,13 @@ img .new-post {
 	right: -3px;
 	top: -3px;
 	z-index: 10;
+}
+#clock {
+	color: #ffa71c;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
 }

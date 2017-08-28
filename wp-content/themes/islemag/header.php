@@ -56,6 +56,7 @@
 						}
 					}
 					?>
+					<span id="clock"></span>
 				</div>
 
 				<button type="button" class="navbar-btn"><i class="fa fa-search"></i></button>
@@ -164,7 +165,54 @@
 		$islemag_content_ids = apply_filters( 'islemag_content_ids', array( 'content' ) ); ?>
 		<div <?php if ( ! empty( $islemag_content_ids ) ) { echo 'id="' . implode( ' ', $islemag_content_ids ) . '"'; } ?> <?php if ( ! empty( $islemag_content_classes ) ) {  echo 'class="' . implode( ' ', $islemag_content_classes ) . '"'; }?>>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script> <!--Microsoft-->
-<script type="text/javascript">   
+<script type="text/javascript"> 
+    $(function() {
+        $('#clock').html(currentTime);
+        var displayTime = window.setInterval(function(){
+         $('#clock').html(currentTime)
+        },1000);
+    });
+    function currentTime(){
+    	var today = new Array('周日','周一','周二','周三','周四','周五','周六');  
+        var d = new Date(),str1 = '',str2 = '',str3 = '';
+         str1 += d.getFullYear()+'-';
+         if(d.getMonth().length < 2){
+         	str1  += d.getMonth() + 1 + '-';
+         	str1 = '0' + str1
+         }else{
+         	str1  += d.getMonth() + 1 + '-';
+         }
+         
+         if(d.getDate().length < 2){
+         	str1  += d.getDate()+' ';
+         	str1 = '0' + str1
+         }else{
+         	str1  += d.getDate()+' ';
+         }
+        
+
+         str2 = today[d.getDay()] + ' ';
+
+
+         str3 += d.getHours()+':';
+
+         if(d.getMinutes().toString().length < 2){
+         	console.log('dddd')
+         	str3  += '0' + d.getMinutes() + ':';
+         	//str3 = '0' + str3
+         }else{
+         	console.log('dfdaf')
+         	str3  += d.getMinutes()+':';
+         }
+         
+         
+         if(d.getSeconds().toString().length < 2){
+         	str3 += '0' + d.getSeconds()+'';
+         }else{
+         	str3 += d.getSeconds()+'';
+         }
+        return str1 + str2 + str3;
+    }
 // var documentHeight = 0;   
 // var topPadding = 150;   
 // $(function() {   
