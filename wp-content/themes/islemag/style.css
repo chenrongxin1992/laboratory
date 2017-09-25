@@ -1049,19 +1049,19 @@ a:active {
 
 @media (min-width: 992px) {
 	.sticky-menu.fixed {
-		width: 970px;
+		width: 955px;
 	}
 }
 
 @media (min-width: 1200px) {
 	.sticky-menu.fixed {
-		width: 1170px;
+		width: 955px;
 	}
 }
 
 @media (min-width: 1280px) {
 	.sticky-menu.fixed {
-		width: 1200px;
+		width: 955px;
 	}
 }
 
@@ -1213,19 +1213,19 @@ body {
 @media (min-width: 1280px) {
 	.container,
 	.sticky-menu {
-		width: 1200px;
+		width: 955px;
 	}
 }
 
 @media (min-width: 992px) {
 	.sticky-menu {
-		width: 970px;
+		width: 955px;
 	}
 }
 
 #wrapper {
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 #wrapper.boxed,
@@ -1245,6 +1245,9 @@ body {
 		margin: 0 auto;
 		-webkit-box-shadow: 3px 0 10px rgba(0,0,0, 0.15), -3px 0 10px rgba(0,0,0, 0.1);
 		box-shadow: 3px 0 10px rgba(0,0,0, 0.15), -3px 0 10px rgba(0,0,0, 0.1);
+	}
+	.sticky-menu {
+	    width: 955px;
 	}
 
 	.sticky-menu,
@@ -1285,6 +1288,10 @@ body {
 		margin: 50px auto;
 	}
 
+	.sticky-menu {
+	    width: 955px;
+	}
+
 	.sticky-menu,
 	#wrapper.boxed,
 	#wrapper.boxed-long,
@@ -1294,15 +1301,15 @@ body {
 	.boxed-long .sticky-menu.fixed .container-fluid,
 	.boxed #header.sticky-menu.fixed .navbar-transparent,
 	.boxed-long #header.sticky-menu.fixed .navbar-transparent {
-		width: 1170px;
+		width: 955px;
 	}
 }
 
 @media (min-width: 1280px) {
 	.container,
-	.sticky-menu {
+	/*.sticky-menu {
 		width: 1200px;
-	}
+	}*/
 
 	#wrapper.boxed,
 	#wrapper.boxed-long,
@@ -1598,7 +1605,7 @@ body {
 
 #wrapper {
 	width: 100%;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 #wrapper.boxed-long {
@@ -6098,6 +6105,15 @@ span.pull-right{
 	
 	
 }
+@media (max-width: 768px) {
+	body.custom-background{
+		background-color: white;
+	}
+	#wrapper {
+	width: 100%;
+	background-color: #fff;
+}
+}
 @media (max-width: 990px) {
 	.islemag-template1-posts .entry-media figure a img {
 		max-height: 270px;
@@ -6112,6 +6128,16 @@ span.pull-right{
 		min-height: 170px;
 		position: relative;
 	}
+	.site-content.container{
+		padding-left: 0;
+		background-color: white;
+	}
+	.col-md-6.islemag-section5{
+		margin-left: 10px;
+	}
+	.col-md-6.islemag-section3{
+		margin-left: 10px;
+	}
 }
 @media (min-width: 1200px) {
 	.container{
@@ -6125,6 +6151,17 @@ span.pull-right{
 		max-width: 400px;
 		max-height: 300px;
 		/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
+	}
+	.site-content.container{
+		padding-left: 0;
+		background-color: white;
+		min-height: 540px;
+	}
+	.col-md-6.islemag-section5{
+		margin-left: 10px;
+	}
+	.col-md-6.islemag-section3{
+		margin-left: 10px;
 	}
 }
 img .new-post {
@@ -6143,4 +6180,16 @@ img .new-post {
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
+}
+div.header-content.clearfix  > .container {
+	background-color: white;
+}
+.site-header > .container {
+	background-color: white;
+}
+div.site-content.container > .container {
+	background-color: white;
+}
+div.col-md-12 > p {
+	margin-top: 10px;
 }
