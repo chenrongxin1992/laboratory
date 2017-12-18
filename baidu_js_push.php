@@ -9,8 +9,8 @@
       bp.src = 'http://push.zhanzhang.baidu.com/push.js';
     }
     var s = document.getElementsByTagName("script")[0];
-    console.log('s-->',s)
-    console.log('bp-->',bp)
+    //console.log('s-->',s)
+    //console.log('bp-->',bp)
     s.parentNode.insertBefore(bp, s);
 })();
 </script>

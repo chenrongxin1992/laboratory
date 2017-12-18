@@ -12,8 +12,10 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE"> -->
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -25,8 +27,12 @@
  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<!--[if lt IE 9]>
-<script src=”http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js”></script>
+<!--IE8只能支持jQuery1.9-->
+<!--[if lte IE 8]>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+<![endif]-->
+<!--[if gt IE 8]>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
 <![endif]-->
 </head>
 
@@ -165,80 +171,3 @@
 		$islemag_content_ids = apply_filters( 'islemag_content_ids', array( 'content' ) ); ?>
 		<div <?php if ( ! empty( $islemag_content_ids ) ) { echo 'id="' . implode( ' ', $islemag_content_ids ) . '"'; } ?> <?php if ( ! empty( $islemag_content_classes ) ) {  echo 'class="' . implode( ' ', $islemag_content_classes ) . '"'; }?>>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script> <!--Microsoft-->
-<script type="text/javascript"> 
-    $(function() {
-        $('#clock').html(currentTime);
-        var displayTime = window.setInterval(function(){
-         $('#clock').html(currentTime)
-        },1000);
-    });
-    function currentTime(){
-    	var today = new Array('周日','周一','周二','周三','周四','周五','周六');  
-        var d = new Date(),str1 = '',str2 = '',str3 = '';
-         str1 += d.getFullYear()+'-';
-         if(d.getMonth().length < 2){
-         	str1  += d.getMonth() + 1 + '-';
-         	str1 = '0' + str1
-         }else{
-         	str1  += d.getMonth() + 1 + '-';
-         }
-         
-         if(d.getDate().length < 2){
-         	str1  += d.getDate()+' ';
-         	str1 = '0' + str1
-         }else{
-         	str1  += d.getDate()+' ';
-         }
-        
-
-         str2 = today[d.getDay()] + ' ';
-
-
-         str3 += d.getHours()+':';
-
-         if(d.getMinutes().toString().length < 2){
-         	console.log('dddd')
-         	str3  += '0' + d.getMinutes() + ':';
-         	//str3 = '0' + str3
-         }else{
-         	console.log('dfdaf')
-         	str3  += d.getMinutes()+':';
-         }
-         
-         
-         if(d.getSeconds().toString().length < 2){
-         	str3 += '0' + d.getSeconds()+'';
-         }else{
-         	str3 += d.getSeconds()+'';
-         }
-        return str1 + str2 + str3;
-    }
-// var documentHeight = 0;   
-// var topPadding = 150;   
-// $(function() {   
-//     var offset = $(".sidebar").offset();   
-//     console.log('offset-->',offset)
-//     documentHeight = $(document).height();   
-//     console.log('documentHeight-->',documentHeight)
-//     $(window).scroll(function() {   
-//         var sideBarHeight = $(".sidebar").height();   
-//         console.log('sideBarHeight-->',sideBarHeight)
-//         if ($(window).scrollTop() > offset.top) {   
-//             var newPosition = ($(window).scrollTop() - offset.top) + topPadding;   
-//             var maxPosition = documentHeight - (sideBarHeight + 500);   
-//             console.log('newPosition-->',newPosition)
-//             console.log('maxPosition-->',maxPosition)
-//             if (newPosition > maxPosition) {   
-//                 newPosition = maxPosition;   
-//             }   
-//             $(".sidebar").stop().animate({   
-//                 marginTop: newPosition   
-//             });   
-//         } else {   
-//             $(".sidebar").stop().animate({   
-//                 marginTop: 0   
-//             });   
-//         };   
-//     });   
-// });   
-</script>  

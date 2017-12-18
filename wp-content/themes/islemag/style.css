@@ -4877,7 +4877,7 @@ ul > li:hover > a,
 }
 
 .islemag-template1-posts .entry-media figure a img {
-	max-height: 170px;
+	max-height: 165px;
 }
 
 .islemag-template2 .entry-media figure,
@@ -4908,11 +4908,11 @@ ul > li:hover > a,
 
 .entry-media a img {
 	/*max-width: 400px;*/
-	max-height: 300px;
+	/*max-height: 300px;*/
 	/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 }
 figure{
-	max-height: 300px !important;
+	/*max-height: 300px !important;*/
 }
 .entry-media figure > a:after,
 .entry-media .item > a:after,
@@ -6121,6 +6121,8 @@ span.pull-right{
 	.entry.entry-overlay .entry-media {
 		min-height: 270px;
 		position: relative;
+		align-items:center;//子元素垂直居中
+		display:-webkit-flex;
 	}
 }
 @media screen and (min-width: 990px) and (max-width: 1199px) {
@@ -6138,18 +6140,31 @@ span.pull-right{
 	.col-md-6.islemag-section3{
 		margin-left: 10px;
 	}
+	.entry-media{
+		align-items:center;//子元素垂直居中
+		display:-webkit-flex;
+	}
 }
+
 @media (min-width: 1200px) {
+	.entry-media{
+		/*min-height: 200px;*/
+	}
 	.container{
 		width: 970px !important;
 	}
 	.entry.entry-overlay .entry-media {
+		text-align: center;
 		min-height: 165px;
 		position: relative;
+		flex-wrap:wrap;
+		align-items:center;//子元素垂直居中
+		/*justify-content:center;//子元素水平居中*/
+		display:-webkit-flex;
 	}
 	.entry-media a img {
-		max-width: 400px;
-		max-height: 300px;
+		/*max-width: 400px;
+		max-height: 300px;*/
 		/*_height:expression(this.scrollHeight >430 ? "430px" : "auto");*/
 	}
 	.site-content.container{

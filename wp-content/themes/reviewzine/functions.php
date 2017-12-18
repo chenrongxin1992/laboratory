@@ -565,13 +565,13 @@ function login_protection(){
 // add_filter('the_title','add_top_title_icon',999);
 
 
-function my_scripts_method() {
-   // register your script location, dependencies and version
-   wp_register_script('jClock',
-       get_template_directory_uri() . '/js/jClock.js',
-       array('jquery'),
-       '2.0.0' );
-   // enqueue the script
-   wp_enqueue_script('jClock');
-}
+// function my_scripts_method() {
+//    // register your script location, dependencies and version
+//    wp_register_script('jClock',
+//        get_template_directory_uri() . '/js/jClock.js',
+//        array('jquery'),
+//        '2.0.0' );
+//    // enqueue the script
+//    wp_enqueue_script('jClock');
+// }
 add_action('wp_enqueue_scripts', 'my_scripts_method');
