@@ -992,7 +992,8 @@ a:active {
 }
 
 .sub-menu {
-	min-width: 220px;
+	min-width: 150px;
+	/*min-width: 220px;*/
 	margin: 0;
 	padding: 7px;
 	border: none;
@@ -2009,7 +2010,8 @@ blockquote {
 }
 
 .main-navigation .sub-menu a {
-	min-width: 220px;
+	min-width:150px;
+	/*min-width: 220px;*/
 	margin: 0;
 	padding: 7px 15px;
 	border: none;
@@ -6011,19 +6013,6 @@ h5 span a{color:#ffa71c;}
 	list-style:none;
 	line-height:2em;
 }
-.post-title {
-	font-size: 15px;
-	vertical-align: bottom;
-    display: inline-block;
-    width: 60%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    overflow: hidden;
-    display: -moz-inline-box;
-    list-style:none;
-	line-height:2em;
-}
 .post-date {
 	float: right;
 	vertical-align: bottom;
@@ -6106,6 +6095,19 @@ span.pull-right{
 	
 }
 @media (max-width: 768px) {
+	.post-title {
+		font-size: 15px;
+		vertical-align: bottom;
+	    display: inline-block;
+	    width: 68%;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    -o-text-overflow: ellipsis;
+	    overflow: hidden;
+	    display: -moz-inline-box;
+	    list-style:none;
+		line-height:2em;
+	}
 	body.custom-background{
 		background-color: white;
 	}
@@ -6147,6 +6149,19 @@ span.pull-right{
 }
 
 @media (min-width: 1200px) {
+	.post-title {
+		font-size: 15px;
+		vertical-align: bottom;
+	    display: inline-block;
+	    width: 78%;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    -o-text-overflow: ellipsis;
+	    overflow: hidden;
+	    display: -moz-inline-box;
+	    list-style:none;
+		line-height:2em;
+	}
 	.entry-media{
 		/*min-height: 200px;*/
 	}
