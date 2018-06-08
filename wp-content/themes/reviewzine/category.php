@@ -10,7 +10,7 @@
 get_header(); ?>
 <div class="container">
 	<div class="row">
-		<div class="islemag-content-left col-md-8">
+		<div class="islemag-content-left col-md-12">
 			<?php if ( have_posts() ) : ?>
 						<header class="page-header">
 							<h1><span>
